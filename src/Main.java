@@ -23,6 +23,23 @@ public class Main {
        if (age1 >= 24)
        {
            System.out.println("Ты закончил университет. Неплохо было бы найти работу");
+
+           // Задача 3
+
+           int passengers = 77;
+
+           if (passengers < 60) {
+               System.out.println("В вагоне есть сидячие и стоячие места");
+           }
+           if (passengers >=60)
+           if (passengers < 120) {
+               System.out.println("В вагоне есть только стоячие места");
+           }
+           if (passengers >= 120) {
+               System.out.println("Мест нет");
+           }
+
+
        }
 
       }
