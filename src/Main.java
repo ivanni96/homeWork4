@@ -37,11 +37,18 @@ public class Main {
            }
            if (passengers >= 120) {
                System.out.println("Мест нет");
+
+               }
+           //Задача 4
+           int age2 = 19;
+           if (age2 >= 18){
+               System.out.println("Поздравляем с совершеннолетием!");
+           }else{
+               System.out.println("Пока ты не достиг совершеннолетия. Подожди чуть-чуть");
            }
 
-
+           }
        }
-
       }
     }
-}
+
