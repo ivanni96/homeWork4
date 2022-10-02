@@ -104,10 +104,10 @@ public class Main {
                 System.out.println("Без взрослого на атракционе кататься нельзя");
             }
             if (age8 >= 14){
-                System.out.println("Можно кататься на атракционе без взрослого");}
-    }
-
-
-
+                System.out.println("Можно кататься на атракционе без взрослого");} int one = 1; int two = 2; int free = 3; if (one >= 3){
+            System.out.println("Число one больше");} if (two >= 3){
+            System.out.println("Число two больше");} if (free >= 3){
+            System.out.println("Число free больше");}
+   }
 
 }
