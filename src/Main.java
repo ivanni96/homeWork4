@@ -89,11 +89,25 @@ public class Main {
             }
             if (age7 >=24) {
                 System.out.println("А если человеку больше 24, то ему пора ходить на работу");
-
         }
+
+        //Задача 8
+
+        int age8 =8;
+            boolean adult = false;
+            if (age8<5) {
+                System.out.println("Если ребенку меньше 5 лет, то он не может кататься на аттракционе");
+            }
+            if (age8 >= 5 && age8 <14 && adult == true){
+                System.out.println("Со взрослым ребенок может кататься на атракционе");
+            }else{
+                System.out.println("Без взрослого на атракционе кататься нельзя");
+            }
+            if (age8 >= 14){
+                System.out.println("Можно кататься на атракционе без взрослого");}
     }
 
-    // Задача 7
+
 
 
 }
